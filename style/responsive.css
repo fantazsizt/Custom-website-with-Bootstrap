@@ -1,0 +1,54 @@
+@media screen and (max-width: 1080px) {}
+
+@media screen and (min-width: 1199px) {
+    .services img {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .s-none {
+        display: none;
+    }
+
+    .slide-right {
+        flex-direction: row !important;
+        width: 100%;
+        height: auto;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    .s-card {
+        margin: 0 0 0 1px;
+    }
+
+    .swiper {
+        height: 100%;
+    }
+
+    .about {
+        background-image: url('../img/elektrik-mobil.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 976px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 520px) {
+    .slogan h5 {
+
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .slogan h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 560px) {}
